@@ -8,7 +8,7 @@
 % g0 - maximum growth rate of E. coli, 1.1 per hour
 % a - growth yield, 0.23, a* dP(g/L) = dN(g/L)
 % K - Monod constant, constraint for growth rate, 4ug/ml
-function [N_Colony,N_Liquid,P] = ColonyGrowth3D_NEW(P0)
+function [N_Colony,N_Liquid,P] = ColonyGrowth3D(P0)
 T = 500; % hr
 R = 5e3; % um
 V=4/3*pi*(R/1e4)^3; % ml
